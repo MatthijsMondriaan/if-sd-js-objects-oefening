@@ -45,11 +45,15 @@ function deletePlayer() {
 }
 
 function printPlayers() {
+    console.log("Players array containts " + players.length + " players");
+
     var playersText = "";
 
     for(let i = 0; i < players.length; i++) {
-        playersText += i + ": " + players[i] + "<br>";
+        playersText += "◘◘◘◘◘◘◘◘◘ " + "Player " + (i + 1) + " ◘◘◘◘◘◘◘◘◘" + "<br>";
+        playersText += "Name: " + players[i].name + "<br>";
+        playersText += "Symbol: " + players[i].symbol + "<br>";
+        playersText += "Points: " + players[i].points + "<br>";
     }
-
     playersLabel.innerHTML = playersText;
 }
