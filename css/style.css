@@ -1,0 +1,162 @@
+  body {
+    background-color:#f5e9c7;
+  }
+  
+  h1 {
+    font-family: helvetica;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: helvetica;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: helvetica;
+    text-align: center;
+  }
+  
+  h3 {
+    font-family: helvetica;
+    text-align: center;
+  }
+  
+  p {
+    font-family: helvetica;
+    font-size: 20px;
+  }
+  
+  .centeredParagraph {
+      text-align: center;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    
+  * div {
+    font-family: helvetica;
+  }
+
+  .array-actions-container {
+    /* background-color:#ccc2a6; */
+  }
+
+  .array-container {
+    vertical-align: middle;
+    /* background-color:#ccc2a6; */
+  }
+
+  .array-label {
+    font-size:18px;
+  }
+  
+  .top-button-container {
+    float: right;
+  }
+  
+  .page-title {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .title-text {
+    font-weight: bold;
+  }
+
+  .input-field {
+    font-size:20px;
+  }
+    
+  .add-item-button {
+    background-color:#dbd1b3;
+    border-radius:15px;
+    border:2px solid #333029;
+    display:inline-block;
+    cursor:pointer;
+    color:#505739;
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    padding:12px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    border: none;
+    outline:none; 
+  }
+
+  .add-item-button:hover {
+    background-color:#ccc2a6;
+  }
+
+  .add-item-button:active {
+    position:relative;
+    top:1px;
+  }
+
+  .check-item-button {
+    background-color:#dbd1b3;
+    border-radius:15px;
+    border:2px solid #333029;
+    display:inline-block;
+    cursor:pointer;
+    color:#505739;
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    padding:12px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    border: none;
+    outline:none; 
+  }
+
+  .check-item-button:hover {
+    background-color:#ccc2a6;
+  }
+
+  .check-item-button:active {
+    position:relative;
+    top:1px;
+  }
+
+  .delete-item-button {
+    background-color:#dbd1b3;
+    border-radius:15px;
+    border:2px solid #333029;
+    display:inline-block;
+    cursor:pointer;
+    color:#505739;
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    padding:12px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    border: none;
+    outline:none; 
+  }
+  
+  .delete-item-button:hover {
+    background-color:#ccc2a6;
+  }
+
+  .delete-item-button:active {
+    position:relative;
+    top:1px;
+  }
+  
+  .check-result-label {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  
+  
