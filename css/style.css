@@ -46,16 +46,16 @@
     font-family: helvetica;
   }
 
-  .array-actions-container {
+  .players-container {
     /* background-color:#ccc2a6; */
   }
 
-  .array-container {
+  .player-container {
     vertical-align: middle;
     /* background-color:#ccc2a6; */
   }
 
-  .array-label {
+  .players-label {
     font-size:18px;
   }
   
@@ -76,7 +76,7 @@
     font-size:20px;
   }
     
-  .add-item-button {
+  .add-player-button {
     background-color:#dbd1b3;
     border-radius:15px;
     border:2px solid #333029;
@@ -93,42 +93,16 @@
     outline:none; 
   }
 
-  .add-item-button:hover {
+  .add-player-button:hover {
     background-color:#ccc2a6;
   }
 
-  .add-item-button:active {
+  .add-player-button:active {
     position:relative;
     top:1px;
   }
 
-  .check-item-button {
-    background-color:#dbd1b3;
-    border-radius:15px;
-    border:2px solid #333029;
-    display:inline-block;
-    cursor:pointer;
-    color:#505739;
-    font-family:Arial;
-    font-size:18px;
-    font-weight:bold;
-    padding:12px 16px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #ffffff;
-    border: none;
-    outline:none; 
-  }
-
-  .check-item-button:hover {
-    background-color:#ccc2a6;
-  }
-
-  .check-item-button:active {
-    position:relative;
-    top:1px;
-  }
-
-  .delete-item-button {
+  .delete-player-button {
     background-color:#dbd1b3;
     border-radius:15px;
     border:2px solid #333029;
@@ -145,11 +119,11 @@
     outline:none; 
   }
   
-  .delete-item-button:hover {
+  .delete-player-button:hover {
     background-color:#ccc2a6;
   }
 
-  .delete-item-button:active {
+  .delete-player-button:active {
     position:relative;
     top:1px;
   }
