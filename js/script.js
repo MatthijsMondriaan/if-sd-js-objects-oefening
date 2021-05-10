@@ -1,60 +1,44 @@
 // Constants
-const addItemButton = document.querySelector('.add-item-button');
-const checkItemButton = document.querySelector('.check-item-button');
-const deleteItemButton = document.querySelector('.delete-item-button');
+const addPlayerButton = document.querySelector('.add-player-button');
+const deletePlayerButton = document.querySelector('.delete-player-button');
 
 // Variables
-let itemsArray = [];
-let arrayLabel = document.querySelector('.array-label');
+let players = [];
+let playersLabel = document.querySelector('.players-label');
 
 // Event listeners
-if (addItemButton) {
-	addItemButton.addEventListener("click", addItem);
+if (addPlayerButton) {
+	addPlayerButton.addEventListener("click", addPlayer);
 }
 
-if (checkItemButton) {
-	checkItemButton.addEventListener("click", checkItem);
-}
 
-if (deleteItemButton) {
-	deleteItemButton.addEventListener("click", deleteItem);
+if (deletePlayerButton) {
+	deletePlayerButton.addEventListener("click", deletePlayer);
 }
 
 // Functions
-function addItem() {
-    let addItemInput = document.querySelector('.inputfield-add-item').value;
-    console.log("Adding item: " + addItemInput);
+function addPlayer() {
+    let addPlayerData = document.querySelector('.inputfield-player-name').value;
+    console.log("Adding player: " + addPlayerData);
 
-    itemsArray.push(addItemInput);
+    players.push(addPlayerData);
 
-    printArray();
+    printPlayers();
 }
 
-function checkItem() {
-    console.log("Checking an item");
+function deletePlayer() {
+    console.log("Deleting last player");
+    players.pop();
 
-    let checkItemInput = document.querySelector('.inputfield-check-item').value;
-
-    if (itemsArray.includes(checkItemInput)) {
-        alert(checkItemInput + " is found! :)");
-    } else {
-        alert(checkItemInput + " is not found! :(");
-    }
+    printPlayers();
 }
 
-function deleteItem() {
-    console.log("Deleting an item");
-    itemsArray.pop();
+function printPlayers() {
+    var playersText = "";
 
-    printArray();
-}
-
-function printArray() {
-    var arrayText = "";
-
-    for(let i = 0; i < itemsArray.length; i++) {
-        arrayText += i + ": " + itemsArray[i] + "<br>";
+    for(let i = 0; i < players.length; i++) {
+        playersText += i + ": " + players[i] + "<br>";
     }
 
-    arrayLabel.innerHTML = arrayText;
+    playersLabel.innerHTML = playersText;
 }
