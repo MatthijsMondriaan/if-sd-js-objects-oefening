@@ -1,5 +1,6 @@
   body {
-    background-color:#f5e9c7;
+    background-color:#3900d6;
+    color: aliceblue;
   }
   
   h1 {
@@ -77,15 +78,14 @@
   }
     
   .add-player-button {
-    background-color:#dbd1b3;
+    background-color:magenta;
     border-radius:15px;
-    border:2px solid #333029;
+    border:2px solid #ffffff;
     display:inline-block;
     cursor:pointer;
-    color:#505739;
+    color:#ffffff;
     font-family:Arial;
     font-size:18px;
-    font-weight:bold;
     padding:12px 16px;
     text-decoration:none;
     text-shadow:0px 1px 0px #ffffff;
@@ -103,15 +103,14 @@
   }
 
   .delete-player-button {
-    background-color:#dbd1b3;
+    background-color:magenta;
     border-radius:15px;
-    border:2px solid #333029;
+    border:2px solid #ffffff;
     display:inline-block;
     cursor:pointer;
-    color:#505739;
+    color:#ffffff ;
     font-family:Arial;
     font-size:18px;
-    font-weight:bold;
     padding:12px 16px;
     text-decoration:none;
     text-shadow:0px 1px 0px #ffffff;
@@ -126,10 +125,6 @@
   .delete-player-button:active {
     position:relative;
     top:1px;
-  }
-  
-  .check-result-label {
-    background-color: rgb(255, 255, 255);
   }
   
   
