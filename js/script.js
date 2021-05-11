@@ -11,7 +11,6 @@ if (addPlayerButton) {
 	addPlayerButton.addEventListener("click", addPlayer);
 }
 
-
 if (deletePlayerButton) {
 	deletePlayerButton.addEventListener("click", deletePlayer);
 }
