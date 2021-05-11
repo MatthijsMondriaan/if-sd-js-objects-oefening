@@ -18,9 +18,9 @@ if (deletePlayerButton) {
 
 // Functions
 function addPlayer() {
-    let playerName = document.querySelector('.inputfield-player-name').value;
-    let playerSymbol = document.querySelector('.inputfield-player-symbol').value;
-    let playerPoints = document.querySelector('.inputfield-player-points').value;
+    let playerName = document.querySelector('.input-field-player-name').value;
+    let playerSymbol = document.querySelector('.input-field-player-symbol').value;
+    let playerPoints = document.querySelector('.input-field-player-points').value;
 
     console.log("Adding playerName: " + playerName);
     console.log("Adding playerSymbol: " + playerSymbol);
